@@ -20,8 +20,8 @@ setup(
         'srmrpy @ git+https://github.com/jfsantos/SRMRpy',
     ],
     extras_require={
-        'cpu': ['tensorflow==2.0.0', 'librosa'],
-        'gpu': ['tensorflow-gpu==2.0.0', 'librosa'],
+        'cpu': ['tensorflow==1.15.0', 'librosa'],
+        'gpu': ['tensorflow-gpu==1.15.0', 'librosa'],
     },
     include_package_data=True
 )
